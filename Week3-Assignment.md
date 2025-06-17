@@ -4,16 +4,17 @@
 Build a responsive React application using JSX and Tailwind CSS that demonstrates component architecture, state management, hooks usage, and API integration.
 
 ## 📂 Tasks
+### Check marks [x] are being used after each task is achieved in the assignment project
 
 ### Task 1: Project Setup
-- Create a new React application using Vite [X]
-- Install and configure Tailwind CSS
-- Set up the project structure with components, pages, and utility folders
-- Configure basic routing using React Router
+- Create a new React application using Vite [X] 
+- Install and configure Tailwind CSS [x]
+- Set up the project structure with components, pages, and utility folders [x]
+- Configure basic routing using React Router [x]
 
 ### Task 2: Component Architecture
 - Create reusable UI components:
-  - `Button` component with different variants (primary, secondary, danger)
+  - `Button` component with different variants (primary, secondary, danger) [x]
   - `Card` component for displaying content in a boxed layout
   - `Navbar` component for site navigation
   - `Footer` component with links and copyright information
