@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import './App.css';
+import Button from './components/Button';
 
 // Import your components here
-import Button from './components/Button';
+
 // import Navbar from './components/Navbar';
 // import Footer from './components/Footer';
 // import TaskManager from './components/TaskManager';
@@ -27,19 +28,19 @@ function App() {
             </p>
             
             <div className="flex items-center gap-4 my-4">
-              <button
+              <Button
                 onClick={() => setCount((count) => count - 1)}
                 className="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600 transition-colors"
               >
                 -
-              </button>
+              </Button>
               <span className="text-xl font-bold">{count}</span>
-              <button
+              <Button
                 onClick={() => setCount((count) => count + 1)}
                 className="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition-colors"
               >
                 +
-              </button>
+              </Button>
             </div>
 
             <p className="text-gray-500 dark:text-gray-400 mt-4">
