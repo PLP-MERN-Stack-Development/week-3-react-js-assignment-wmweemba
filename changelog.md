@@ -10,3 +10,5 @@ All notable changes to this project will be documented in this file.
 - Configured Tailwind.
 - Created structured folder structure.
 - Installed React Router DOM using pnpm add react-router-dom
+- Added the Taskmanager and Button Component from the components folder and imported them to App.jsx
+-
