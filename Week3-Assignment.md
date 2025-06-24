@@ -28,23 +28,23 @@ Build a responsive React application using JSX and Tailwind CSS that demonstrate
   - Delete tasks [x]
   - Filter tasks (All, Active, Completed) [x]
 - Use the following hooks:
-  - `useState` for managing component state
-  - `useEffect` for side effects (e.g., loading saved tasks)
-  - `useContext` for theme management (light/dark mode)
-  - Create a custom hook (e.g., `useLocalStorage`) for persisting tasks
+  - `useState` for managing component state [x]
+  - `useEffect` for side effects (e.g., loading saved tasks) [x]
+  - `useContext` for theme management (light/dark mode) [x]
+  - Create a custom hook (e.g., `useLocalStorage`) for persisting tasks [x]
 
 ### Task 4: API Integration
-- Fetch data from a public API (e.g., JSONPlaceholder)
-- Display the fetched data in a list or grid layout
-- Implement loading and error states
-- Add pagination or infinite scrolling
-- Create a search feature to filter the API results
+- Fetch data from a public API (e.g., JSONPlaceholder) [x]
+- Display the fetched data in a list or grid layout [x]
+- Implement loading and error states [x]
+- Add pagination or infinite scrolling [x]
+- Create a search feature to filter the API results [x]
 
 ### Task 5: Styling with Tailwind CSS
-- Create a responsive design that works on mobile, tablet, and desktop
-- Implement a theme switcher (light/dark mode) using Tailwind's dark mode
-- Use Tailwind's utility classes for layout, spacing, typography, and colors
-- Create custom animations or transitions for interactive elements
+- Create a responsive design that works on mobile, tablet, and desktop [x]
+- Implement a theme switcher (light/dark mode) using Tailwind's dark mode [x]
+- Use Tailwind's utility classes for layout, spacing, typography, and colors [x]
+- Create custom animations or transitions for interactive elements [x]
 
 ## 🧪 Expected Outcome
 - A fully functional React application with multiple components

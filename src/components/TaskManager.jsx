@@ -1,20 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import Button from './Button';
+import useLocalStorage from '../utils/useLocalStorage';
 
 /**
  * Custom hook for managing tasks with localStorage persistence
  */
 const useLocalStorageTasks = () => {
-  // Initialize state from localStorage or with empty array
-  const [tasks, setTasks] = useState(() => {
-    const savedTasks = localStorage.getItem('tasks');
-    return savedTasks ? JSON.parse(savedTasks) : [];
-  });
-
-  // Update localStorage when tasks change
-  useEffect(() => {
-    localStorage.setItem('tasks', JSON.stringify(tasks));
-  }, [tasks]);
+  // Use the custom hook directly at the top level
+  const [tasks, setTasks] = useLocalStorage('tasks', []);
 
   // Add a new task
   const addTask = (text) => {
@@ -165,19 +158,5 @@ const TaskManager = () => {
   );
 };
 
-export default TaskManager; 
+export default TaskManager;
 
-
-
-
-// function TaskManager() {
-//   // Assume tasks state and handlers are defined
-//   return (
-//     <div className="bg-[var(--color-background)] p-4 rounded-lg">
-//       <input className="w-full p-2 mb-4 bg-gray-200 dark:bg-gray-700 text-[var(--color-text)]" placeholder="Add a new task..." />
-//       <button className="px-4 py-2 bg-[var(--color-primary)] text-white rounded">Add Task</button>
-//       {/* Task list items with dark mode support */}
-//     </div>
-//   );
-// }
-// export default TaskManager;
