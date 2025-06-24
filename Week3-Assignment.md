@@ -17,16 +17,16 @@ Build a responsive React application using JSX and Tailwind CSS that demonstrate
   - `Button` component with different variants (primary, secondary, danger) [x]
   - `Card` component for displaying content in a boxed layout [x]
   - `Navbar` component for site navigation [x]
-  - `Footer` component with links and copyright information
-- Implement a layout component that includes the Navbar and Footer
+  - `Footer` component with links and copyright information [x]
+- Implement a layout component that includes the Navbar and Footer [x]
 - Use props to make components customizable and reusable
 
 ### Task 3: State Management and Hooks
 - Implement a `TaskManager` component that allows users to:
-  - Add new tasks
-  - Mark tasks as completed
-  - Delete tasks
-  - Filter tasks (All, Active, Completed)
+  - Add new tasks [x]
+  - Mark tasks as completed [x]
+  - Delete tasks [x]
+  - Filter tasks (All, Active, Completed) [x]
 - Use the following hooks:
   - `useState` for managing component state
   - `useEffect` for side effects (e.g., loading saved tasks)

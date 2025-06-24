@@ -166,3 +166,18 @@ const TaskManager = () => {
 };
 
 export default TaskManager; 
+
+
+
+
+// function TaskManager() {
+//   // Assume tasks state and handlers are defined
+//   return (
+//     <div className="bg-[var(--color-background)] p-4 rounded-lg">
+//       <input className="w-full p-2 mb-4 bg-gray-200 dark:bg-gray-700 text-[var(--color-text)]" placeholder="Add a new task..." />
+//       <button className="px-4 py-2 bg-[var(--color-primary)] text-white rounded">Add Task</button>
+//       {/* Task list items with dark mode support */}
+//     </div>
+//   );
+// }
+// export default TaskManager;
